@@ -1,27 +1,48 @@
 p{
-     font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-indent: 1em;
   }
-  h1 {
-     font-family: "Times New Roman", Times, serif;
-     font-size: 2em;
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+    letter-spacing: .3em;
+    text-align: center;
   }
-  p.important {
-     font-size: 1.5em;
-     font-weight: 900;
+p.important {
+    font-size: 1.5em;
+    font-weight: 900;
   }
-  .typewriter {
-     font-family: "Courier New", Courier, monospace;
+p.more-readable {
+    line-height: 2em;
+}
+.typewriter {
+    font-family: "Courier New", Courier, monospace;
   }
-  p.standout {
-      font-style: italic;
+h4.special {
+    font-style: italic;
   }
-  h4.special {
-      font-style: italic;
+.emphasized {
+    font-style: italic;
   }
-  .emphasized {
-      font-style: italic;
+.standout {
+    font-style: italic;
+    color: #cc0000;
   }
-  .standout {
-      font-style: italic;
-      color: #cc0000;
+.pretty { 
+    text-align: justify;
   }
+.date-style {
+    text-align: right;
+    color: blueviolet
+  }
+blockquote {
+    font-size: 1em;
+    color: darkslategrey;
+    
+}
+.center {
+    text-align: center;
+}
+.letter-spaced {
+    letter-spacing: .7em;
+}
